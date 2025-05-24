@@ -1,0 +1,2 @@
+C:\Users\Omri\Desktop\Ex03 Lihi 314958042 Omri 208008649\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.AssemblyReference.cache
+C:\Users\Omri\Desktop\Ex03 Lihi 314958042 Omri 208008649\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.CoreCompileInputs.cache
