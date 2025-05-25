@@ -46,7 +46,7 @@ namespace Ex03.GarageLogic
             LicenseNumber,
             ModelName,
             VehicleEngine.ToString(),
-            Wheels[0].Manufacturer,
+            Wheels[0].r_Manufacturer,
             Wheels[0].CurrentAirPressure,
             ExtraInformationToString());
 

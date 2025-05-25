@@ -12,7 +12,7 @@ namespace Ex03.GarageLogic
         public FuelCar(string i_LicenseNumber, string i_ModelName) : base(i_LicenseNumber, i_ModelName)
         {
             VehicleType = eVehicleType.FuelCar;
-            VehicleEngine = new FuelEngine(i_MaxEnergyOfEngine: 45f, i_TypeOfFuel: eFuelType.Octane95);
+            VehicleEngine = new FuelEngine(i_MaxAmountOfFuel: 45f, i_TypeOfFuel: eFuelType.Octane95);
         }
     }
 

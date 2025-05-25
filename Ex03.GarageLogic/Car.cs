@@ -7,12 +7,12 @@ namespace Ex03.GarageLogic
         protected eColor Color { get; set; }
         protected int NumberOfDoors { get; set; }
 
-        protected Car(string i_LicenseNumber, string i_ModelName) : base(i_LicenseNumber, i_ModelName)
+        protected Car(string i_LicenseNumber, string i_ModelName) : 
+            base(i_LicenseNumber, i_ModelName)
         {
             NumOfWheels = 4;
             MaxWheelsAirPressure = 32f;
             NumOfExtraInformation = 2;
-            Wheels = CreateWheels(NumOfWheels, "DefaultManufacturer", 0f, MaxWheelsAirPressure);
         }
 
         public override string GetExtraInformation(int i_ExtraInfoNum)

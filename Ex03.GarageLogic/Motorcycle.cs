@@ -9,12 +9,12 @@ namespace Ex03.GarageLogic
 
         protected string LicenseType { get; set; }
 
-        protected Motorcycle(string i_LicenseNumber, string i_ModelName): base (i_LicenseNumber, i_ModelName)
+        protected Motorcycle(string i_LicenseNumber, string i_ModelName) 
+            : base (i_LicenseNumber, i_ModelName)
         {
             NumOfWheels = 2;
             MaxWheelsAirPressure = 31f;
             NumOfExtraInformation = 2;
-            Wheels = CreateWheels(NumOfWheels, "DefaultManufacturer", 0f, MaxWheelsAirPressure);
         }
 
         public override string GetExtraInformation(int i_NumOfExtraInformation)

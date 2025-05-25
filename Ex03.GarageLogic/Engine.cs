@@ -11,17 +11,26 @@ namespace Ex03.GarageLogic
     {
         public float RemainingEnergy { get; set; }
 
-        public readonly float r_MaxAmountOfEnergy; //readonly - Changed from property
+        public readonly float r_MaxAmountOfChargeOrFuel; 
 
-        public readonly eEngineType r_EngineType; //readonly - Changed from property
+        public readonly eEngineType r_EngineType; 
 
-        protected Engine(float i_MaxAmountOfEnergy)
+        protected Engine(float i_MaxAmountOfChargeOrFuel, eEngineType i_EngineType)
         {
-            r_MaxAmountOfEnergy = i_MaxAmountOfEnergy;
+            r_EngineType = i_EngineType;
+            r_MaxAmountOfChargeOrFuel = i_MaxAmountOfChargeOrFuel;
         }
 
         protected void AddPower(float i_AmountOfPowerToAdd)
         {
+            float newAmountOfEnergy = RemainingEnergy + i_AmountOfPowerToAdd;
+
+            if (newAmountOfEnergy > r_MaxAmountOfChargeOrFuel || newAmountOfEnergy < 0)
+            {
+                throw new ValueOutOfRangeException(0, r_MaxAmountOfChargeOrFuel);
+            }
+
+            RemainingEnergy += i_AmountOfPowerToAdd;
 
         }
 
