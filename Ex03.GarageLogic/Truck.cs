@@ -10,42 +10,32 @@ namespace Ex03.GarageLogic
     public class Truck : Vehicle
     {
         //need to use consts where?
-        public Truck()
+        public Truck(string i_LicenseNumber, string i_ModelName): base(i_LicenseNumber, i_ModelName)
         {
+            VehicleType= eVehicleType.Truck;
             NumOfWheels = 14;
-            MaxWheelsAirPressure = 26f;
-            FuelType = eFuelType.Soler;
-            MaxFuelAmount = 135f;
-            MaxChargeAmount = 0f;
+            MaxWheelsAirPressure = 27f;
+            VehicleEngine = new FuelEngine(i_MaxEnergyOfEngine: 135f, i_TypeOfFuel: eFuelType.Soler);
             NumOfExtraInformation = 2;
+            Wheels = CreateWheels(NumOfWheels, "DefaultManufacturer", 0f, MaxWheelsAirPressure);
         }
 
         private bool DangerousMaterial { get; set; } //Should be readonly??
 
         private float TankVolume { get; set; }
 
-        public override eVehicleType VehicleType
-        {
-            get
-            {
-                return eVehicleType.Truck;
-            }
-
-            protected set { VehicleType = value; }
-        }
-
-        public override string GetExtraInformation(int i_ExtraDetailNum)
+        public override string GetExtraInformation(int i_ExtraDetailNum) //TO DO
         {
             //write
             return "";
         }
 
-        public override void SetExtraInformation(int i_ExtraDetailNum, string i_ExtraDetailValue)
+        public override void SetExtraInformation(int i_ExtraDetailNum, string i_ExtraDetailValue) //TO DO
         {
 
         }
 
-        public override string ExtraInformationToString()
+        public override string ExtraInformationToString() //TO DO
         {
             return string.Format(
                 @"Contains Dangerous Material: {0}

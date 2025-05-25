@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -37,8 +37,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
-    <Compile Include="CarOwnerInfo.cs" />
+    <Compile Include="OwnerInfo.cs" />
+    <Compile Include="ElectricCar.cs" />
     <Compile Include="ElectricEngine.cs" />
+    <Compile Include="ElectricMotorcycle.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Enums\eCarDetails.cs" />
     <Compile Include="Enums\eColor.cs" />
@@ -48,10 +50,13 @@
     <Compile Include="Enums\eTruckDetails.cs" />
     <Compile Include="Enums\eVehicleState.cs" />
     <Compile Include="Enums\eVehicleType.cs" />
+    <Compile Include="FuelCar.cs" />
     <Compile Include="FuelEngine.cs" />
+    <Compile Include="FuelMotorcycle.cs" />
     <Compile Include="Garage.cs" />
     <Compile Include="Motorcycle.cs" />
     <Compile Include="Truck.cs" />
+    <Compile Include="ValueOutOfRangeException.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="VehicleCreator.cs" />
     <Compile Include="Wheel.cs" />

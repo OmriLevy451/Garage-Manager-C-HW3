@@ -1,2 +1,4 @@
 C:\Users\Omri\Desktop\Ex03 Lihi 314958042 Omri 208008649\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.AssemblyReference.cache
 C:\Users\Omri\Desktop\Ex03 Lihi 314958042 Omri 208008649\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.CoreCompileInputs.cache
+C:\Users\רויטל כהן\Desktop\שנה ג\c# homework\GarageManager\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.AssemblyReference.cache
+C:\Users\רויטל כהן\Desktop\שנה ג\c# homework\GarageManager\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.CoreCompileInputs.cache

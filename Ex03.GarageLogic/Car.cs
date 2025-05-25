@@ -1,67 +1,132 @@
-﻿using Ex03.GarageLogic.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System;
+using Ex03.GarageLogic.Enums;
 namespace Ex03.GarageLogic
 {
-    public class Car : Vehicle
+    public abstract class Car : Vehicle
     {
-        private eColor Color { get; set; }
+        protected eColor Color { get; set; }
+        protected int NumberOfDoors { get; set; }
 
-        private int NumberOfDoors { get; set; }
-
-        public Car()
+        protected Car(string i_LicenseNumber, string i_ModelName) : base(i_LicenseNumber, i_ModelName)
         {
             NumOfWheels = 4;
-            MaxWheelsAirPressure = 33f;
-            FuelType = eFuelType.Octane95;
-            MaxFuelAmount = 46f;
-            MaxChargeAmount = 5.2f;
+            MaxWheelsAirPressure = 32f;
             NumOfExtraInformation = 2;
+            Wheels = CreateWheels(NumOfWheels, "DefaultManufacturer", 0f, MaxWheelsAirPressure);
         }
 
-        public override eVehicleType VehicleType
+        public override string GetExtraInformation(int i_ExtraInfoNum)
         {
-            get
+            string informationDescription;
+
+            switch (i_ExtraInfoNum)
             {
-                eVehicleType vehicleType;
-
-                if (VehicleEngine.EngineType == eEngineType.Fuel)
+                case (int)eCarDetails.Color:
                 {
-                    vehicleType = eVehicleType.ElectricCar;
-                }
-                else
-                {
-                    vehicleType = eVehicleType.FuelCar;
+                    informationDescription = "Car color (Red, White, Black, Yellow)";
+                    break;
                 }
 
-                return vehicleType;
+                case (int)eCarDetails.NumberOfDoors:
+                {
+                    informationDescription = "Number of doors (2,3,4 or 5)";
+                    break;
+                }
+
+                default:
+                {
+                    throw new ArgumentException("\nInvalid extra detail identifier given");
+                }
             }
 
-            protected set { VehicleType = value; }
+            return informationDescription;
         }
 
-        public override string GetExtraInformation(int i_ExtraDetailNum)
+        public override void SetExtraInformation(int i_ExtraInfoNum, string i_ExtraInfoValue)
         {
-            //write
-            return "";
-        }
+            switch (i_ExtraInfoNum)
+            {
+                case (int)eCarDetails.Color:
+                {
+                    if (tryParseToColor(i_ExtraInfoValue, out eColor oColorInput))
+                    {
+                        Color = oColorInput;
+                    }
+                    else
+                    {
+                        throw new ArgumentException("\nInvalid car color given");
+                    }
 
-        public override void SetExtraInformation(int i_ExtraDetailNum, string i_ExtraDetailValue)
-        {
+                    break;
+                }
 
+                case (int)eCarDetails.NumberOfDoors:
+                {
+                    if (int.TryParse(i_ExtraInfoValue, out int oNumOfDoorsInput) && oNumOfDoorsInput >= 2 && oNumOfDoorsInput <= 5)
+                    {
+                        NumberOfDoors = oNumOfDoorsInput;
+                    }
+                    else
+                    {
+                        throw new ArgumentException("\nInvalid number of doors given");
+                    }
+
+                    break;
+                }
+
+                default:
+                {
+                    throw new ArgumentException("\nInvalid extra detail identifier given.");
+                }
+            }
         }
 
         public override string ExtraInformationToString()
         {
             return string.Format(
-                @"Car's color: {0}
-                Number of doors: {1}", Color, NumberOfDoors);
+            @"Car's color: {0}
+            Number of doors: {1}", Color, NumberOfDoors);
         }
 
+        private bool tryParseToColor(string i_Value, out eColor o_OutputColor)
+        {
+            o_OutputColor = eColor.Red;
+            bool isValidColor = true;
 
+            switch (i_Value)
+            {
+                case "Red":
+                {
+                    o_OutputColor = eColor.Red;
+                    break;
+                }
+
+                case "White":
+                {
+                    o_OutputColor = eColor.White;
+                    break;
+                }
+
+                case "Black":
+                {
+                    o_OutputColor = eColor.Black;
+                    break;
+                }
+
+                case "Yellow":
+                {
+                    o_OutputColor = eColor.Yellow;
+                    break;
+                }
+
+                default:
+                {
+                    isValidColor = false;
+                    break;
+                }
+            }
+
+            return isValidColor;
+        }
     }
 }

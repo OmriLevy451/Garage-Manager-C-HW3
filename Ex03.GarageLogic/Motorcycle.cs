@@ -1,47 +1,20 @@
 ﻿using Ex03.GarageLogic.Enums;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex03.GarageLogic
 {
     public class Motorcycle : Vehicle
     {
-        public Motorcycle()
+        protected int EngineVolume { get; set; }
+
+        protected string LicenseType { get; set; }
+
+        protected Motorcycle(string i_LicenseNumber, string i_ModelName): base (i_LicenseNumber, i_ModelName)
         {
             NumOfWheels = 2;
             MaxWheelsAirPressure = 31f;
-            FuelType = eFuelType.Octane98;
-            MaxFuelAmount = 6.4f;
-            MaxChargeAmount = 2.6f;
             NumOfExtraInformation = 2;
-        }
-
-        private readonly int EngineVolume;
-
-        private readonly string LicenseType;
-
-        public override eVehicleType VehicleType
-        {
-            get
-            {
-                eVehicleType vehicleType;
-
-                if (VehicleEngine.EngineType == eEngineType.Fuel)
-                {
-                    vehicleType = eVehicleType.FuelMotorcycle;
-                }
-                else
-                {
-                    vehicleType = eVehicleType.ElectricMotorcycle; ;
-                }
-
-                return vehicleType;
-            }
-
-            protected set { VehicleType = value; } //seems wrong!
+            Wheels = CreateWheels(NumOfWheels, "DefaultManufacturer", 0f, MaxWheelsAirPressure);
         }
 
         public override string GetExtraInformation(int i_NumOfExtraInformation)
