@@ -10,42 +10,91 @@ namespace Ex03.GarageLogic
     public class Garage
     {
         private readonly Dictionary<string, Vehicle> r_Vehicles = new Dictionary<string, Vehicle>();
+        private readonly Dictionary<Vehicle, OwnerInfo> r_OwnerInfo = new Dictionary<Vehicle, OwnerInfo>();
 
-        private readonly Dictionary<Vehicle, OwnerInfo> r_ClientInfo = new Dictionary<Vehicle, OwnerInfo>();
-        public VehicleCreator Creator { get; } = new VehicleCreator();  //they changed vehicleCreator to be a non-abstract class
         public bool IsLicenseNumberInGarage(string i_LicenseNumber)
         { 
             return r_Vehicles.ContainsKey(i_LicenseNumber);
         }
 
+        public void AddVehicle(Vehicle i_Vehicle, OwnerInfo i_OwnerInfo)
+        {
+            r_Vehicles.Add(i_Vehicle.LicenseNumber, i_Vehicle);
+            r_OwnerInfo.Add(i_Vehicle, i_OwnerInfo);
+        }
+
         public void RefuelVehicle(string i_LicenseNumber, int i_FuelType, float i_AmountOfFuel)
-        { 
-            //write
+        {
+            if (!r_Vehicles.TryGetValue(i_LicenseNumber, out Vehicle vehicle))
+            {
+                throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
+            }
+
+            if (!(vehicle.VehicleEngine is FuelEngine fuelEngine))
+            {
+                throw new ArgumentException("\nThis vehicle isn't fuel based.");
+            }
+
+            eFuelType requestedFuelType = (eFuelType)i_FuelType;
+
+            fuelEngine.AddFuel(requestedFuelType, i_AmountOfFuel);
         }
 
         public void ChargeVehicle(string i_LicenseNumber, float i_NumberOfMinutesToCharge)
         {
-           //write
+            if (!r_Vehicles.TryGetValue(i_LicenseNumber, out Vehicle vehicle))
+            {
+                throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
+            }
+
+            if (!(vehicle.VehicleEngine is ElectricEngine electricEngine))
+            {
+                throw new ArgumentException("\nThis vehicle isn't electric.");
+            }
+
+            electricEngine.Charge(i_NumberOfMinutesToCharge / 60f);
         }
 
         public void InflateWheelsToMax(string i_LicenseNumber)
         {
-            //write
-        }
-        public void ChangeVehicleState(string i_LicenseNumber, int i_State)
-        {
-           //write
+            if (!r_Vehicles.TryGetValue(i_LicenseNumber, out Vehicle vehicle))
+            {
+                throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
+            }
+
+            foreach (Wheel wheel in vehicle.Wheels)
+            {
+                float airToAdd = wheel.r_MaxAirPressure - wheel.CurrentAirPressure;
+                wheel.AddAir(airToAdd);
+            }
         }
 
-        public void AddVehicle(Vehicle i_Vehicle, OwnerInfo i_ClientInfo)
-        { 
-            //write
+        public void ChangeVehicleState(string i_LicenseNumber, int i_State)
+        {
+            if (!r_Vehicles.TryGetValue(i_LicenseNumber, out Vehicle vehicle))
+            {
+                throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
+            }
+
+            r_OwnerInfo[vehicle].VehicleState = (eVehicleState)i_State;
         }
 
         public string VehicleInfoToString(string i_LicenseNumber)
-        { 
-            //write
-           return "";
+        {
+            if (!r_Vehicles.TryGetValue(i_LicenseNumber, out Vehicle vehicle))
+            {
+                throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
+            }
+
+            OwnerInfo currentOwnerInfo = r_OwnerInfo[vehicle];
+            StringBuilder displayVehicleInformation = new StringBuilder();
+
+            displayVehicleInformation.AppendLine("Vehicle Full Information:");
+            displayVehicleInformation.AppendLine(string.Format("Owner Name: {0}", currentOwnerInfo.r_OwnerName));
+            displayVehicleInformation.AppendLine(string.Format("Vehicle State: {0}", currentOwnerInfo.VehicleState));
+            displayVehicleInformation.AppendLine(vehicle.ToString());
+
+            return displayVehicleInformation.ToString();
         }
 
         public string[] GetPossibleVehicleTypes()
@@ -53,23 +102,31 @@ namespace Ex03.GarageLogic
              return Enum.GetNames(typeof(eVehicleType));
         }
 
-        public List<string> GetLicenseNumsByState(int i_State) 
+        public List<string> GetLicenseNumbersByState(int i_State) 
         {
              List<string> licenseNumbersList = new List<string>();
 
-            //write
+            foreach (string licenseNumber in r_Vehicles.Keys)
+            {
+                Vehicle vehicle = r_Vehicles[licenseNumber];
+
+                if ((int)r_OwnerInfo[vehicle].VehicleState == i_State || i_State == -1)
+                {
+                    licenseNumbersList.Add(licenseNumber);
+                }
+            }
 
             return licenseNumbersList;
         }
 
-        public Vehicle GetVehicleByLicenseNum(string i_LicenseNumber) //change
+        public Vehicle GetVehicleByLicenseNum(string i_LicenseNumber)
         {
-            if (!IsLicenseNumberInGarage(i_LicenseNumber))
+            if (!r_Vehicles.TryGetValue(i_LicenseNumber, out Vehicle vehicle))
             {
-                 throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
+                throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
             }
 
-            return r_Vehicles[i_LicenseNumber];
+            return vehicle;
         }
 
     }
