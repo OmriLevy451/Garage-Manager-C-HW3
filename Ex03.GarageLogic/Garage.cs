@@ -11,7 +11,6 @@ namespace Ex03.GarageLogic
     {
         private readonly Dictionary<string, Vehicle> r_Vehicles = new Dictionary<string, Vehicle>();
         private readonly Dictionary<Vehicle, OwnerInfo> r_OwnerInfo = new Dictionary<Vehicle, OwnerInfo>();
-
         public bool IsLicenseNumberInGarage(string i_LicenseNumber)
         { 
             return r_Vehicles.ContainsKey(i_LicenseNumber);
@@ -75,7 +74,6 @@ namespace Ex03.GarageLogic
             {
                 throw new ArgumentException("\nNo vehicle with this license number was found in the garage.");
             }
-
             r_OwnerInfo[vehicle].VehicleState = (eVehicleState)i_State;
         }
 

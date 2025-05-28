@@ -1,5 +1,6 @@
 ﻿using System;
 using Ex03.GarageLogic.Enums;
+
 namespace Ex03.GarageLogic
 {
     public abstract class Car : Vehicle
@@ -17,13 +18,13 @@ namespace Ex03.GarageLogic
 
         public override string GetExtraInformation(int i_ExtraInfoNum)
         {
-            string informationDescription;
+            string informationDescription = string.Empty;
 
             switch (i_ExtraInfoNum)
             {
                 case (int)eCarDetails.Color:
                 {
-                    informationDescription = "Car color (Red, White, Black, Yellow)";
+                    informationDescription = "Car color (Silver, White, Black, Yellow)";
                     break;
                 }
 
@@ -84,20 +85,20 @@ namespace Ex03.GarageLogic
         public override string ExtraInformationToString()
         {
             return string.Format(
-            @"Car's color: {0}
-            Number of doors: {1}", Color, NumberOfDoors);
+@"Car's color: {0}
+Number of doors: {1}", Color, NumberOfDoors);
         }
 
         private bool tryParseToColor(string i_Value, out eColor o_OutputColor)
         {
-            o_OutputColor = eColor.Red;
+            o_OutputColor = eColor.Silver;
             bool isValidColor = true;
 
             switch (i_Value)
             {
-                case "Red":
+                case "Silver":
                 {
-                    o_OutputColor = eColor.Red;
+                    o_OutputColor = eColor.Silver;
                     break;
                 }
 

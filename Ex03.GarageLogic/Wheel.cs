@@ -20,7 +20,6 @@ namespace Ex03.GarageLogic
             CurrentAirPressure = i_CurrentAirPressure;
             r_MaxAirPressure = i_RecommendedMaxAirPressure;
         }
-
         public void AddAir(float i_AmountOfAirToAdd)
         {
             float newAirPressure = CurrentAirPressure + i_AmountOfAirToAdd;

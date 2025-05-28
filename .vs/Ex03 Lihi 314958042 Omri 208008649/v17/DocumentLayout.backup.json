@@ -1,58 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\",
+  "WorkspaceRootPath": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\electricengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electricengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{788B2F89-54E9-456B-87E5-5F32FE71731D}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.consoleui\\userinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788B2F89-54E9-456B-87E5-5F32FE71731D}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\userinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{788B2F89-54E9-456B-87E5-5F32FE71731D}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788B2F89-54E9-456B-87E5-5F32FE71731D}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\carownerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\carownerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\eenginetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\eenginetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\evehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\evehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\evehiclestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\evehiclestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\etruckdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\etruckdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\emotorcycledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\emotorcycledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\efueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\efueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\ecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\ecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\enums\\ecardetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\enums\\ecardetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\ecardetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\ex03.garagelogic\\enums\\ecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\ecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\enums\\eenginetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\eenginetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\ex03.garagelogic\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\ex03.garagelogic\\vehiclecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehiclecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\ex03 lihi 314958042 omri 208008649\\ex03.garagelogic\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\ex03.garagelogic\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\ex03.garagelogic\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\enums\\evehiclestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\evehiclestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\enums\\evehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\evehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\enums\\etruckdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\etruckdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\enums\\emotorcycledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\emotorcycledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\omri\\desktop\\degree\\last year\\c#\\hw3\\gitclone27.5\\garage-manager-c-hw3\\ex03.garagelogic\\enums\\efueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCF7350-33A7-4BB0-8147-FB4CE95E9D9A}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums\\efueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{788B2F89-54E9-456B-87E5-5F32FE71731D}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\ex03.consoleui\\enums\\euserchoices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{788B2F89-54E9-456B-87E5-5F32FE71731D}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\enums\\euserchoices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +98,292 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ElectricEngine.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\ElectricEngine.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricEngine.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\ElectricEngine.cs*",
-              "RelativeToolTip": "Ex03.GarageLogic\\ElectricEngine.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "eVehicleType.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eVehicleType.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eVehicleType.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eVehicleType.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eVehicleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T13:50:07.583Z",
+              "WhenOpened": "2025-05-28T13:31:41.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarOwnerInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\CarOwnerInfo.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\CarOwnerInfo.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\CarOwnerInfo.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\CarOwnerInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T13:05:06.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "eEngineType.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eEngineType.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eEngineType.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eEngineType.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eEngineType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:32:17.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "eTruckDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:31:34.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "eMotorcycleDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:30:41.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "eCarDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eCarDetails.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eCarDetails.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eCarDetails.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eCarDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:26:58.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "eVehicleState.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eVehicleState.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eVehicleState.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eVehicleState.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eVehicleState.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eVehicleState.cs",
               "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eVehicleState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:14:02.735Z",
+              "WhenOpened": "2025-05-28T13:31:38.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "eColor.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eColor.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eColor.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eColor.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eColor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Car.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Car.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Car.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Car.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAkwCYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:13:35.305Z",
+              "WhenOpened": "2025-05-28T12:03:34.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.ConsoleUI\\UserInterface.cs",
+              "RelativeDocumentMoniker": "Ex03.ConsoleUI\\UserInterface.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.ConsoleUI\\UserInterface.cs",
+              "RelativeToolTip": "Ex03.ConsoleUI\\UserInterface.cs",
+              "ViewState": "AgIAAKkBAAAAAAAAAAAewLABAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:02:24.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ElectricCar.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:42:31.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Wheel.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Wheel.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Wheel.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Wheel.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Wheel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T09:18:46.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Engine.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Engine.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Engine.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\Engine.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Engine.cs*",
-              "RelativeToolTip": "Ex03.GarageLogic\\Engine.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Engine.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Engine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T09:18:18.438Z",
+              "WhenOpened": "2025-05-28T12:13:57.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "eFuelType.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eFuelType.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eFuelType.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eFuelType.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eFuelType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ElectricMotorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T09:17:43.909Z",
+              "WhenOpened": "2025-05-27T20:02:59.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "eVehicleType.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eVehicleType.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eVehicleType.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Enums\\eVehicleType.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eVehicleType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FuelMotorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T08:59:45.016Z",
+              "WhenOpened": "2025-05-27T20:00:02.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\Omri\\Desktop\\Ex03 Lihi 314958042 Omri 208008649\\Ex03.GarageLogic\\Vehicle.cs",
-              "RelativeToolTip": "Ex03.GarageLogic\\Vehicle.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAywC8AAAAsAAAAAAAAAA==",
+              "Title": "Garage.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Garage.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Garage.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Garage.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Garage.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwFwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T08:56:25.521Z",
+              "WhenOpened": "2025-05-28T12:02:33.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Motorcycle.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Motorcycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Motorcycle.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:02:48.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Truck.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Truck.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Truck.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Truck.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:57:09.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Vehicle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Vehicle.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwEAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:13:53.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VehicleCreator.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\VehicleCreator.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\VehicleCreator.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\VehicleCreator.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\VehicleCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:40:31.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Wheel.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Wheel.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Wheel.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Wheel.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Wheel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:28:29.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "Ex03.ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeToolTip": "Ex03.ConsoleUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:29:47.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "eEngineType.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eEngineType.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eEngineType.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eEngineType.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eEngineType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:31:21.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "eColor.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eColor.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eColor.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eColor.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:08:30.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "eCarDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eCarDetails.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eCarDetails.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eCarDetails.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eCarDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:31:14.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "eTruckDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eTruckDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:31:35.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "eMotorcycleDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eMotorcycleDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:31:31.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "eFuelType.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eFuelType.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums\\eFuelType.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.GarageLogic\\Enums\\eFuelType.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums\\eFuelType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:31:25.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "eUserChoices.cs",
+              "DocumentMoniker": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.ConsoleUI\\Enums\\eUserChoices.cs",
+              "RelativeDocumentMoniker": "Ex03.ConsoleUI\\Enums\\eUserChoices.cs",
+              "ToolTip": "C:\\Users\\Omri\\Desktop\\degree\\last year\\C#\\HW3\\gitclone27.5\\Garage-Manager-C-HW3\\Ex03.ConsoleUI\\Enums\\eUserChoices.cs",
+              "RelativeToolTip": "Ex03.ConsoleUI\\Enums\\eUserChoices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:53:45.491Z",
               "EditorCaption": ""
             }
           ]

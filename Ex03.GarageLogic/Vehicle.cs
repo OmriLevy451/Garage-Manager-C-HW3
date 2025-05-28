@@ -9,8 +9,8 @@ namespace Ex03.GarageLogic
 {
     public abstract class Vehicle
     {
-        public string LicenseNumber { get; protected set; }
-        public string ModelName { get; protected set; }
+        public string LicenseNumber { get; set; }
+        public string ModelName { get; set; }
 
         protected Vehicle(string i_LicenseNumber, string i_ModelName)
         {
@@ -18,12 +18,12 @@ namespace Ex03.GarageLogic
             ModelName = i_ModelName;
         }
 
-        public eVehicleType VehicleType { get; protected set; } //readonly (no longer abstract)
-        public float MaxWheelsAirPressure { get; protected set; } // NOT readonly - possible to change wheels?
+        public eVehicleType VehicleType { get; protected set; }
+        public float MaxWheelsAirPressure { get; protected set; }
         public int NumOfWheels { get; protected set; }
-        public int NumOfExtraInformation { get; protected set; } //readonly
+        public int NumOfExtraInformation { get; protected set; } 
 
-        public Engine VehicleEngine { get; set; } //readonly
+        public Engine VehicleEngine { get; set; }
 
         public List<Wheel> Wheels { get; set; }
 
@@ -36,13 +36,13 @@ namespace Ex03.GarageLogic
         public override string ToString()
         {
             string vehicleInformation = string.Format(
-            @"
-            License number: {0}
-            Model name: {1}
-            {2}
-            Wheels manufacturer: {3}
-            Wheels air pressure: {4}
-            {5}",
+@"
+License number: {0}
+Model name: {1}
+{2}
+Wheels manufacturer: {3}
+Wheels air pressure: {4}
+{5}",
             LicenseNumber,
             ModelName,
             VehicleEngine.ToString(),

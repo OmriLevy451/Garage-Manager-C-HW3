@@ -19,13 +19,13 @@ namespace Ex03.GarageLogic
             NumOfExtraInformation = 2;
         }
 
-        private bool DangerousMaterial { get; set; } //Should be readonly?? Good Question 
+        private bool DangerousMaterial { get; set; }
 
         private float TankVolume { get; set; }
 
         public override string GetExtraInformation(int i_ExtraInfoNum) 
         {
-            string infoDescription;
+            string infoDescription=string.Empty;
 
             switch (i_ExtraInfoNum)
             {
@@ -93,11 +93,10 @@ namespace Ex03.GarageLogic
         public override string ExtraInformationToString()
         {
             return string.Format(
-                @"Contains Dangerous Material: {0}
-                Tank volume: {1}",
+@"Contains Dangerous Material: {0}
+Tank volume: {1}",
                 DangerousMaterial,
                 TankVolume);
         }
-
     }
 }
